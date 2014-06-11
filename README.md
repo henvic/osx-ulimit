@@ -15,6 +15,12 @@ npm install osx-ulimit
 
 ## Usage
 ```
+require('osx-ulimit').set();
+```
+
+or
+
+```
 require('osx-ulimit').set(threshold);
 ```
 
