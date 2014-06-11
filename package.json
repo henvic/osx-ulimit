@@ -1,0 +1,32 @@
+{
+    "name": "osx-ulimit",
+    "description": "A simple library that allows you to raise the low limit of file descriptors on OS X easily",
+    "version": "0.1.0",
+    "author": {
+        "name": "Henrique Vicente",
+        "email": "henriquevicente@gmail.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:henvic/osx-ulimit.git"
+    },
+    "keywords": [
+        "ulimit",
+        "osx",
+        "darwin",
+        "fd"
+    ],
+    "dependencies": {
+        "posix": "~1.0.3"
+    },
+    "devDependencies": {
+      "nodeunit": "~0.9"
+    },
+    "scripts": {
+        "test": "node ./node_modules/nodeunit/bin/nodeunit"
+    },
+    "engines": {
+        "node": ">=0.8 <0.12"
+    }
+}
