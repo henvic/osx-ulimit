@@ -18,5 +18,16 @@ module.exports = {
                 });
             }
         }
-    }
+    },
+
+    get: function get() {
+        var current,
+            posix;
+
+        if (process.platform === 'darwin') {
+            posix = require('posix');
+
+            return posix.getrlimit('nofile').soft;
+        }
+   }
 };
