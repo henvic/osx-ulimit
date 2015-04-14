@@ -1,7 +1,7 @@
 {
     "name": "osx-ulimit",
     "description": "A simple library that allows you to raise the low limit of file descriptors on OS X easily",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "author": {
         "name": "Henrique Vicente",
         "email": "henriquevicente@gmail.com"
