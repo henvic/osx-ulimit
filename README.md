@@ -19,7 +19,7 @@ npm install osx-ulimit
 
 ## Usage
 ```
-require('osx-ulimit').set();
+require('osx-ulimit').set(); // Defaults to 30000
 ```
 
 or
@@ -27,6 +27,14 @@ or
 ```
 require('osx-ulimit').set(threshold);
 ```
+
+To get the current ulimit
+
+```
+require('osx-ulimit').get();
+```
+
+If not on OSX, the above will be `undefined`.
 
 The threshold should be an integer number with the minimum soft limit of file descriptors you want. Default: 30000.
 
