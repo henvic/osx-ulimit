@@ -1,4 +1,3 @@
-tel it doesn't fix everything and bump version
 # osx-ulimit
 Darwin (OS X kernel) has a low limit for file descriptors (256 per process) by default.
 
